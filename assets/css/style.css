@@ -36,5 +36,13 @@ header {
 }
 
 .card {
-
+  color: var(--dark-blue);
+  padding: 30px 40px;
+  max-width: 800px;
+  background-color: var(--white);
+  border-radius: 5px;
+  border-width: 1px;
+  font-size: 18px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
 }
