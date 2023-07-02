@@ -7,6 +7,7 @@
 :root {
   --dark-blue: #2f3c44;
   --white: #f9fbfd;
+  --light-gray: #e7e9eb;
 }
 
 html,
@@ -45,4 +46,34 @@ header {
   font-size: 18px;
   margin: 0 auto;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+}
+
+.card-header::after {
+  content: " ";
+  display: block;
+  width: 100%;
+  background: #e7e9eb;
+  height: 2px;
+}
+
+.card-body {
+  min-height: 100px;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+.card-footer::before {
+  content: " ";
+  display: block;
+  width: 100%;
+  background: #e7e9eb;
+  height: 2px;
+}
+
+.card-footer::after {
+  content: " ";
+  display: block;
+  clear: both;
 }
